@@ -12,6 +12,16 @@ As a community, we decided that we have a choice, and also an opportunity to imp
 ----
 We're using [this](https://medium.com/@pvzig/building-slack-bots-in-swift-b99e243e444c#.o36cksecb) guide to learn how to build a Slackbot.
 
+To run this app
+
+```
+git clone https://github.com/iOS-Developers-Slack/Better-Words.git
+cd BetterWords
+swift build
+./.build/debug/Better-Words
+```
+And voila, you should have a functioning app. Just open `0.0.0.0:8181`, and you should see some bad words.
+
 #### Contributing
 ----
 If you'd like to contribute, jump right in! Check out the issues for discussions, and our PR inbox is always open.
